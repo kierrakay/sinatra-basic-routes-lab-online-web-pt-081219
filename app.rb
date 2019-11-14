@@ -2,7 +2,7 @@ require_relative 'config/environment'
 
 class App < Sinatra::Base
   
-  get '/' do
+  get '/name' do
     "My name is Maddison!"
   end
   
@@ -14,3 +14,5 @@ class App < Sinatra::Base
     "My favorite song is love"
 end
 end
+
+#when putting the brower dont forget the ip address with the name of the route ex: '/name' in order for it to read.
